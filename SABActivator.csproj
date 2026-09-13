@@ -64,7 +64,7 @@
     <ApplicationIcon>Materials\sab_128.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>70575BDFB02B3F1B45A37431BEF9A8C9933A4ACE</ManifestCertificateThumbprint>
