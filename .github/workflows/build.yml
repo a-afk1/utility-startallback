@@ -11,3 +11,9 @@ jobs:
       
     - name: Build project
       run: msbuild -restore -p:Configuration=Release /p:SignAssembly=false
+      
+    - name: Upload Build
+      uses: actions/upload-artifact@v4
+      with:
+        name: SABActivator-App
+        path: '**\bin\Release\'
