@@ -10,4 +10,4 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       
     - name: Build project
-      run: msbuild -restore -p:Configuration=Release
+      run: msbuild -restore -p:Configuration=Release /p:SignAssembly=false
